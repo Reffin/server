@@ -208,6 +208,16 @@ app.get('/',
     function (req, res) {
         res.redirect('/');
     });
+
+
+app.get('/test',
+
+    function (req, res) {
+        res.redirect('/');
+    });
+
+
+
 const runApp = async () => {
     try {
         // await sequelize.authenticate();
