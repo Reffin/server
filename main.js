@@ -213,7 +213,7 @@ app.get('/',
 app.get('/test',
 
     function (req, res) {
-        res.redirect('/');
+        res.send({ success: true });
     });
 
 
